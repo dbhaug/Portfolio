@@ -8,4 +8,7 @@ class AboutController < ApplicationController
 	def skills
 	end
 
+	def contactInfo
+	end
+
 end
