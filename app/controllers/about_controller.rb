@@ -11,4 +11,7 @@ class AboutController < ApplicationController
 	def contactInfo
 	end
 
+	def index
+	end
+
 end

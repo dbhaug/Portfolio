@@ -30,3 +30,48 @@
 .headingdouble {
 	margin-right: 90px;
 }
+
+body {
+	background-image: url(/assets/circuit.jpg);
+	background-size:  stretch;
+	color: #000000;
+}
+.cover {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #337D38;
+}
+
+.well {
+	background-color: #B1E59A;
+	border-color: #000000;
+}
+
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0000CD;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.no-border {
+	border-width: 0px;
+}
