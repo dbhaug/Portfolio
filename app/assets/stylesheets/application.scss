@@ -32,7 +32,7 @@
 }
 
 body {
-	background-image: url(/assets/circuit.jpg);
+	background: image-url("circuit.jpg");
 	background-size:  stretch;
 	color: #000000;
 }
@@ -59,12 +59,12 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #00FF00;
+    color: #FF0000;
 }
 
 /* mouse over link */
 a:hover {
-    color: #0000CD;
+    color: #0000FF;
 }
 
 /* selected link */
